@@ -38,11 +38,11 @@
             ;
 
         // Corrected rows to match your hardware testing
-        row-gpios
+       row-gpios
             = <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Top
-            , <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Mid
-            , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Bot
-            , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Thumb
+            , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Mid (Was 15)
+            , <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Bot
+            , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row Thumb (Was 29)
             ;
     };
 };
