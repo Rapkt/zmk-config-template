@@ -1,0 +1,5 @@
+config SHIELD_MYKEEB_LEFT
+    def_bool $(shields_list_contains,mykeeb_left)
+
+config SHIELD_MYKEEB_RIGHT
+    def_bool $(shields_list_contains,mykeeb_right)
