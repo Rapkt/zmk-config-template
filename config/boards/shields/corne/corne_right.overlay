@@ -1,0 +1,26 @@
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    kscan0: kscan_0 {
+        compatible = "zmk,kscan-gpio-matrix";
+        diode-direction = "col2row";
+        
+        col-gpios
+            = <&gpio1 6  GPIO_ACTIVE_HIGH> // Col 1
+            , <&gpio1 13 GPIO_ACTIVE_HIGH> // Col 2
+            , <&gpio1 11 GPIO_ACTIVE_HIGH> // Col 3
+            , <&gpio0 10 GPIO_ACTIVE_HIGH> // Col 4
+            , <&gpio0 9  GPIO_ACTIVE_HIGH> // Col 5
+            , <&gpio0 24 GPIO_ACTIVE_HIGH> // Col 6 (Dummy pin, physically unconnected)
+            ;
+
+        row-gpios
+            = <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row top
+            , <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row mid
+            , <&gpio0 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row bot
+            , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Row thumb
+            ;
+    };
+};
