@@ -1,6 +1,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,matrix_transform = &default_transform; // This restores the split mapping!
     };
 
     kscan0: kscan_0 {
@@ -16,6 +17,7 @@
             , <&gpio1 6  GPIO_ACTIVE_HIGH> 
             ;
 
+        // Reverted to your original, physically correct order
         row-gpios
             = <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
