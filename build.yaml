@@ -1,5 +1,7 @@
 include:
   - board: nice_nano_v2
+    shield: mykeeb_left
+  - board: nice_nano_v2
     shield: mykeeb_right
   - board: nice_nano_v2
-    shield: mykeeb_left
+    shield: settings_reset
