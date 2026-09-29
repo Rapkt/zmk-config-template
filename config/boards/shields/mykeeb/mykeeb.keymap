@@ -100,10 +100,10 @@
         layer_2 {
             label = "LOWER";
             bindings = <
-&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6    &kp N7        &kp N8          &kp N9     &kp MINUS  &none
-&none  &kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp PLUS   &none
-&none  &none         &none         &none         &kp SLASH     &kp ASTERISK    &kp ASTERISK    &kp NUMBER_0  &kp EQUAL       &none      &kp DOT    &none
-                                   &to 0         &kp BSPC      &kp LSHFT       &kp SPACE       &to 2         &none
+&none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5          &kp NUMBER_6    &kp N7          &kp N8        &kp N9     &kp MINUS  &none
+&none  &kp LG(N1)    &kp LG(N2)    &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &kp PLUS   &none
+&none  &none         &none         &none         &kp SLASH     &kp ASTERISK    &kp ASTERISK    &kp NUMBER_0    &kp EQUAL     &none      &kp DOT    &none
+                                   &to 0         &kp BSPC      &kp LSHFT       &kp SPACE       &to 2           &none
             >;
         };
 
