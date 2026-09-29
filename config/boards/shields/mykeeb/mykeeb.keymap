@@ -75,7 +75,7 @@
 &none  &kp Q  &kp W        &kp E              &kp R                &kp T        &kp Y      &kp U            &kp I            &kp O    &kp P         &none
 &none  &kp A  &lhr LALT S  &lhr LEFT_WIN D    &lhr LEFT_CONTROL F  &kp G        &kp H      &kp J            &kp K            &kp L    &mt SQT SEMI  &none
 &none  &kp Z  &kp X        &kp C              &kp V                &kp B        &kp N      &kp M            &kp COMMA        &kp DOT  &kp SLASH     &none
-                           &lhr LEFT_ALT TAB  &kp SPACE            &kp LSHFT    &kp ENTER  &lt 2 BACKSPACE  &lt 1 RIGHT_ALT
+                           &lhr LEFT_ALT TAB  &lhr LCTRL SPACE     &kp LSHFT    &kp ENTER  &lt 2 BACKSPACE  &lt 1 RIGHT_ALT
             >;
         };
 
